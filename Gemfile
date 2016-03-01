@@ -6,6 +6,7 @@ gem 'rake', '0.9.2.2'
 
 group :development do
   gem 'rspec-rails', '2.5.0'
+  gem 'annotate'
 end
 
 group :test do

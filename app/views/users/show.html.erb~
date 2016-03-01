@@ -1,0 +1,5 @@
+
+
+<%= @user.nom %>, <%= @user.email %>
+
+
