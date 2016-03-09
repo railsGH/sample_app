@@ -1,0 +1,2192 @@
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-29 15:13:12 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (125.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (99.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+
+
+Started GET "/pages/" for 127.0.0.1 at 2016-02-29 16:06:37 +0100
+
+ActionController::RoutingError (No route matches "/pages"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-29 16:06:40 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-02-29 18:17:14 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-02-29 18:17:15 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-02-29 18:17:15 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 12:50:05 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (8.0ms)
+Completed   in 14ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x0000000208eba0>:0x00000002091be8>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= title %></title>
+    5:     <%= csrf_meta_tag %>
+    6:     <!--[if lt IE 9]>
+    7:     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__2225069125055842592_17097820_408316415830637826'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 12:54:15 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2016-03-01 12:54:15 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 12:54:15 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 12:54:15 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 12:58:59 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 12:59:00 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 12:59:00 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/custom.css" for 127.0.0.1 at 2016-03-01 12:59:00 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 12:59:00 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:03:40 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:03:41 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:03:41 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:03:41 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:03:43 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:03:44 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:03:44 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:04:16 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:04:16 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:04:16 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:04:24 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:04:24 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:04:24 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:09:00 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (7.2ms)
+Completed   in 12ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x000000023d3450>:0x000000023d5fc0>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= title %></title>
+    5:     <%= csrf_meta_tag %>
+    6:     <%= render 'layouts/stylesheets' %>
+    7:   </head>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__2022002962164057630_18809260_961969940856670942'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:09:01 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.9ms)
+Completed   in 11ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x007fd89459fcf8>:0x007fd89459e100>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= title %></title>
+    5:     <%= csrf_meta_tag %>
+    6:     <%= render 'layouts/stylesheets' %>
+    7:   </head>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__2022002962164057630_70284091254560_961969940856670942'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.8ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:09:02 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (7.6ms)
+Completed   in 16ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x000000024c0cc8>:0x000000024be810>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= title %></title>
+    5:     <%= csrf_meta_tag %>
+    6:     <%= render 'layouts/stylesheets' %>
+    7:   </head>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__2022002962164057630_19271940_961969940856670942'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:09:03 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.5ms)
+Completed   in 11ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x007fd894c1a0d8>:0x007fd894c18238>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= title %></title>
+    5:     <%= csrf_meta_tag %>
+    6:     <%= render 'layouts/stylesheets' %>
+    7:   </head>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__2022002962164057630_70284092722880_961969940856670942'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:09:03 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.1ms)
+Completed   in 9ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x007fd89459e948>:0x007fd89459cbc0>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= title %></title>
+    5:     <%= csrf_meta_tag %>
+    6:     <%= render 'layouts/stylesheets' %>
+    7:   </head>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__2022002962164057630_70284091251580_961969940856670942'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:09:04 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.1ms)
+Completed   in 10ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x0000000231d060>:0x000000024cdf68>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= title %></title>
+    5:     <%= csrf_meta_tag %>
+    6:     <%= render 'layouts/stylesheets' %>
+    7:   </head>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__2022002962164057630_19288340_961969940856670942'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:09:04 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (4.3ms)
+Completed   in 10ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x007fd894cd0888>:0x007fd894c7c8f0>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= title %></title>
+    5:     <%= csrf_meta_tag %>
+    6:     <%= render 'layouts/stylesheets' %>
+    7:   </head>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__2022002962164057630_70284092887420_961969940856670942'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.4ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:09:05 +0100
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (5.0ms)
+Completed   in 13ms
+
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x007fd89459a7f8>:0x007fd894598cc8>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%= title %></title>
+    5:     <%= csrf_meta_tag %>
+    6:     <%= render 'layouts/stylesheets' %>
+    7:   </head>
+  app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__2022002962164057630_70284089293120_961969940856670942'
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.3ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:09:19 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.5ms)
+Rendered layouts/_footer.html.erb (0.3ms)
+Rendered pages/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:09:20 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:09:20 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:32:38 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered pages/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:32:38 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:32:38 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-03-01 13:32:43 +0100
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/help.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:32:43 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:32:43 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-03-01 13:32:46 +0100
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/help.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:32:46 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:32:46 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-03-01 13:32:50 +0100
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (1.6ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered layouts/_footer.html.erb (1.2ms)
+Rendered pages/about.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:32:50 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:32:50 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-03-01 13:32:51 +0100
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/contact.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:32:51 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:32:51 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-03-01 13:32:54 +0100
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/about.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:32:54 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:32:54 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-03-01 13:33:31 +0100
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered pages/about.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:33:31 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:33:31 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-03-01 13:33:32 +0100
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/contact.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:33:32 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:33:32 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-03-01 13:33:41 +0100
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/help.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:33:41 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:33:41 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-01 13:34:31 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:34:32 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:34:32 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-01 13:40:12 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:40:13 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:40:13 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-03-01 13:40:14 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered users/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:40:14 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:40:14 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-01 13:42:06 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:42:07 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:42:07 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-03-01 13:42:10 +0100
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/help.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:42:10 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:42:10 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-03-01 13:42:13 +0100
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/help.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:42:13 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:42:13 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-01 13:42:13 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:42:13 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:42:13 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2016-03-01 13:42:15 +0100
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered layouts/_footer.html.erb (1.5ms)
+Rendered pages/about.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:42:15 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:42:15 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2016-03-01 13:42:16 +0100
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered pages/contact.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:42:16 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:42:16 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-01 13:42:20 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:42:20 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:42:20 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-03-01 13:42:21 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered users/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 13:42:21 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 13:42:21 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160301134057)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20160301134057')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160301134057)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.3ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35mAREL (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20160301134057'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160301134057)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20160301134057')
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (125.0ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (99.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (83.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (99.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160301134057')[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160301134057)
+Migrating to AddEmailUniquenessIndex (20160301140408)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.5ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20160301140408')[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_info('index_users_on_email')
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-01 15:08:32 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 27ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 15:08:33 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 15:08:33 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE (LOWER("users"."email") = LOWER('mhartl@example.com')) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("nom", "email", "created_at", "updated_at") VALUES ('Michael Hartl', 'mhartl@example.com', '2016-03-01 14:10:15.984786', '2016-03-01 14:10:15.984786')[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-01 15:12:51 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 29ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 15:12:51 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 15:12:51 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2016-03-01 15:12:56 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-01 15:12:58 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered users/show.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 110ms (Views: 13.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 15:12:59 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 15:12:59 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2016-03-01 15:13:08 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2016-03-01 15:13:21 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered users/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 15:13:21 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 15:13:21 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-01 15:17:35 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 15:17:35 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 15:17:36 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-03-01 15:17:38 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-01 15:17:38 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-01 15:17:38 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-02 13:56:14 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered layouts/_footer.html.erb (1.3ms)
+Rendered pages/home.html.erb within layouts/application (55.8ms)
+Completed 200 OK in 77ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-02 13:56:15 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-02 13:56:15 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 13:56:19 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-02 13:56:19 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-02 13:56:19 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-03-02 13:56:20 +0100
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/help.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-02 13:56:20 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-02 13:56:20 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 13:56:22 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered pages/home.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-02 13:56:22 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-02 13:56:22 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-03-02 13:56:25 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered users/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-02 13:56:25 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-02 13:56:25 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-02 13:56:28 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-02 13:56:28 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-02 13:56:28 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-02 13:56:32 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered users/show.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 157ms (Views: 29.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-02 13:56:32 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-02 13:56:32 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2016-03-07 08:56:42 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (1.6ms)
+Rendered pages/home.html.erb within layouts/application (56.5ms)
+Completed 200 OK in 77ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-07 08:56:43 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-07 08:56:43 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-07 08:56:45 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered pages/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-07 08:56:45 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-07 08:56:45 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-07 08:56:51 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-07 08:56:51 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-07 08:56:51 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-07 08:56:52 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-07 08:56:52 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-07 08:56:52 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-07 08:56:53 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.4ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-07 08:56:53 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-07 08:56:53 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-03-07 08:56:53 +0100
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (1.7ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/help.html.erb within layouts/application (32.5ms)
+Completed 200 OK in 63ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-07 08:56:53 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-07 08:56:53 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-07 08:56:55 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-07 08:56:55 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-07 08:56:55 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-03-07 08:56:56 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered layouts/_footer.html.erb (1.3ms)
+Rendered users/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-07 08:56:56 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-07 08:56:56 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-07 08:57:00 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-07 08:57:00 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-07 08:57:00 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2016-03-07 08:57:24 +0100
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/help.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-07 08:57:24 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-07 08:57:24 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+  [1m[36mSQL (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (143.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (99.7ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (99.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (100.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (99.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160301140408')
+  [1m[36mSQL (100.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160301134057')[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160301134057)
+Migrating to AddEmailUniquenessIndex (20160301140408)
+Migrating to AddPasswordToUsers (20160309131558)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.3ms)[0m  [1mALTER TABLE "users" ADD "encrypted_password" varchar(255)[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20160309131558')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (129.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "encrypted_password" varchar(255)) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (99.8ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (100.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (100.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (99.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160309131558')[0m
+  [1m[35mSQL (101.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160301140408')
+  [1m[36mSQL (100.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160301134057')[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateUsers (20160301134057)
+Migrating to AddEmailUniquenessIndex (20160301140408)
+Migrating to AddPasswordToUsers (20160309131558)
+Migrating to AddSaltToUsers (20160309132517)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.3ms)[0m  [1mALTER TABLE "users" ADD "salt" varchar(255)[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20160309132517')
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (129.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "encrypted_password" varchar(255), "salt" varchar(255)) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[35mSQL (99.7ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (99.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35mSQL (83.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36mSQL (99.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160309132517')[0m
+  [1m[35mSQL (100.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160301140408')
+  [1m[36mSQL (100.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160309131558')[0m
+  [1m[35mSQL (75.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160301134057')
+  [1m[36mSQL (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (118.0ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "encrypted_password" varchar(255), "salt" varchar(255)) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (92.5ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (99.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (99.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (99.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160309132517')
+  [1m[36mSQL (100.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160301140408')[0m
+  [1m[35mSQL (100.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160309131558')
+  [1m[36mSQL (100.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160301134057')[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE (LOWER("users"."email") = LOWER('user@example.com')) LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "users" ("nom", "email", "created_at", "updated_at", "encrypted_password", "salt") VALUES ('Utilisateur exemple', 'user@example.com', '2016-03-09 13:36:38.656902', '2016-03-09 13:36:38.656902', '7a8f4fdf4008c34928b7bd499b361f72f9c18a5ac6b5f57fecc8f309203a89d4', 'e1ded99395cdb3334bb4045185b4059d3ce7778f8aa20df9d239708faa5464f1')[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 14:40:39 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:40:40 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:40:40 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 14:40:42 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:40:42 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:40:42 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 14:40:45 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.7ms)
+Rendered layouts/_header.html.erb (2.3ms)
+Rendered layouts/_footer.html.erb (2.5ms)
+Rendered pages/home.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:40:45 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:40:45 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-09 14:40:50 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 74ms (Views: 8.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:40:50 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:40:50 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 14:40:52 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered pages/home.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:40:52 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:40:52 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2016-03-09 14:40:56 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-09 14:40:59 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered users/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 56ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:40:59 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:40:59 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-09 14:50:21 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.5ms)
+Rendered users/show.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 108ms (Views: 10.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:50:21 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:50:21 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 14:50:36 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:50:36 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:50:36 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2016-03-09 14:50:40 +0100
+  Processing by UsersController#new as HTML
+Rendered layouts/_stylesheets.html.erb (1.2ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered users/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:50:40 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:50:41 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 14:50:42 +0100
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.8ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:50:42 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:50:42 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-09 14:50:52 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered users/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 33ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:50:52 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:50:52 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2016-03-09 14:50:55 +0100
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.7ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.6ms)
+Rendered users/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 48ms (Views: 9.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/stylesheets/blueprint/screen.css" for 127.0.0.1 at 2016-03-09 14:50:55 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/blueprint/print.css" for 127.0.0.1 at 2016-03-09 14:50:55 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css"):
+  
+
+Rendered /home/etudiant/.rvm/gems/ruby-1.9.3-p551@rails3tutorial/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+  [1m[36mSQL (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (121.1ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nom" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "encrypted_password" varchar(255), "salt" varchar(255)) [0m
+  [1m[35mSQL (0.2ms)[0m  PRAGMA index_list("users")
+  [1m[36mSQL (75.8ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (99.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (100.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mSQL (99.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160309132517')
+  [1m[36mSQL (100.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160301140408')[0m
+  [1m[35mSQL (100.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160309131558')
+  [1m[36mSQL (100.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160301134057')[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
