@@ -20,8 +20,6 @@ class User < ActiveRecord::Base
   validates :film_moyenne, :presence => true,
 			   :numericality => {only_integer: true}			
 
-  validates :lire_livre, :presence => true
-
   validates :film_support, :presence => true
 
   before_save :encrypt_password
