@@ -1,5 +1,10 @@
 <h1>Contact</h1>
 <p>
-  Contact du Tutoriel Ruby on Rails à propos de l'Application Exemple à la
-  <a href="http://railstutorial.org/feedback">page de feedback</a>.
+  <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
+  est un projet de livre et de screencasts pour apprendre le développement web
+  avec <a href="http://rubyonrails.org/">Ruby on Rails</a>. 
+  <br/><br/>
+  Gilles Hunault (enseignant) : gilles.hunault@univ-angers.fr <br/>
+  De Leeuw Valérian (moi) : valerian.deleeuw@etud.univ-angers.fr
 </p>
+

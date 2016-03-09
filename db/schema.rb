@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20160309132517) do
+ActiveRecord::Schema.define(:version => 20160309145215) do
 
   create_table "users", :force => true do |t|
     t.string   "nom"
@@ -19,6 +19,10 @@ ActiveRecord::Schema.define(:version => 20160309132517) do
     t.datetime "updated_at"
     t.string   "encrypted_password"
     t.string   "salt"
+    t.date     "date_naiss"
+    t.string   "film_support"
+    t.integer  "film_moyenne"
+    t.boolean  "lire_livre"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

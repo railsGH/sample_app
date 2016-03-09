@@ -4,11 +4,6 @@ class UsersController < ApplicationController
     @titre = "Inscription"
   end
 
-  def index
-    @titre = "Tous les utilisateurs"
-    @users = User.all
-  end
-
   def show
     @user = User.find(params[:id])
     @titre = @user.nom
@@ -17,7 +12,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])
     if @user.save
-      flash[:success] = "Bienvenue dans l'Application Exemple"
+      flash[:success] = "Bienvenue sur notre site !"
       redirect_to @user
     else
       @titre = "Inscription"

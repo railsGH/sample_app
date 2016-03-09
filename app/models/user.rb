@@ -1,17 +1,7 @@
-# == Schema Information
-#
-# Table name: users
-#
-#  id         :integer          not null, primary key
-#  nom        :string(255)
-#  email      :string(255)
-#  created_at :datetime
-#  updated_at :datetime
-#
 require 'digest'
 class User < ActiveRecord::Base 
   attr_accessor :password
-  attr_accessible :nom, :email, :password, :password_confirmation
+  attr_accessible :nom, :email, :password, :password_confirmation, :date_naiss, :film_moyenne, :film_support, :lire_livre 
 
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
@@ -21,10 +11,18 @@ class User < ActiveRecord::Base
                     :format     => { :with => email_regex },
                     :uniqueness => { :case_sensitive => false }
 
-
   validates :password, :presence     => true,
                        :confirmation => true,
                        :length       => { :within => 6..40 }
+
+  validates :date_naiss, :presence => true
+
+  validates :film_moyenne, :presence => true,
+			   :numericality => {only_integer: true}			
+
+  validates :lire_livre, :presence => true
+
+  validates :film_support, :presence => true
 
   before_save :encrypt_password
 

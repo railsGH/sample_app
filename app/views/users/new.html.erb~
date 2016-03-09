@@ -1,27 +1,49 @@
-pp/views/users/new.html.erb
-
 <h1>Inscription</h1>
 
 <%= form_for(@user) do |f| %>
+  <h3>Informations :</h3>
+
   <div class="field">
-    <%= f.label :nom %><br />
+    <%= f.label :nom, "Nom : " %>
     <%= f.text_field :nom %>
   </div>
   <div class="field">
-    <%= f.label :email %><br />
+    <%= f.label :email, "Email : " %>
     <%= f.text_field :email %>
   </div>
   <div class="field">
-    <%= f.label :password %><br />
+    <%= f.label :date_naiss, "Date de naissance : " %>
+    <%= f.date_select :date_naiss, :start_year=>1950, :end_year=>Time.now.utc.year %>
+  </div>
+  <div class="field">
+    <%= f.label :password, "Mot de passe : " %>
     <%= f.password_field :password %>
   </div>
   <div class="field">
-    <%= f.label :password_confirmation, "Confirmation" %><br />
+    <%= f.label :password_confirmation, "Confirmation du mot de passe :" %>
     <%= f.password_field :password_confirmation %>
   </div>
+
+
+  <h3>Préférences :</h3>
+
+  <div class="field">
+    <%= f.label :lire_livre, "Je voudrais lire plus de livres :" %><br/>
+    <%= f.radio_button :lire_livre, 1, :checked => false %>
+    <%= f.label :lire_livre, "Oui", :value => "true" %><br />
+    <%= f.radio_button :lire_livre, 0, :checked => true %>
+    <%= f.label :lire_livre, "Non", :value => "false" %><br />
+  </div>
+  <div class="field">
+    <%= f.label :film_moyenne, "Moyenne de films vus par semaine :" %>
+    <%= f.number_field(:film_moyenne, in: 0.0..100.0) %>
+  </div>
+  <div class="field">
+    <%= f.label :film_support, "Support préféré de visionnage :" %>
+    <%= f.text_field :film_support %>
+  </div>
+  <br/>
   <div class="actions">
     <%= f.submit "Inscription" %>
   </div>
 <% end %>
-
-

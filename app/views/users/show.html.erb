@@ -3,12 +3,20 @@
     <td class="main">
       <h1>
         <%= gravatar_for @user %>
-        <%= @user.nom %>
+        <%= @user.nom %>, <%= Time.now.utc.to_date.year - @user.date_naiss.year %> ans.
       </h1>
-    </td>
-    <td class="sidebar round">
-      <strong>Nom</strong> <%= @user.nom %><br />
-      <strong>URL</strong>  <%= link_to user_path(@user), @user %>
+    <br />
+    <h2>Films et livres :</h2>
+    <p>
+      <strong>Nombre de films par semaine : </strong><%= @user.film_moyenne %><br/>
+      <strong>Support pour regarder les films : </strong><%= @user.film_support %><br/>
+      <strong>Est ce que je veux lire plus de livre : </strong><%= @user.lire_livre %><br/>
+    </p>
+    <br />
+    <h2>Contact : </h2>
+    <p> 
+      <strong>Mail : </strong>  <%= @user.email %>
+    </p>
     </td>
   </tr>
 </table>

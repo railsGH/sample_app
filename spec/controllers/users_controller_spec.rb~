@@ -17,8 +17,9 @@ describe UsersController do
     it "devrait trouver le bon utilisateur" do
       get :show, :id => @user
       assigns(:user).should == @user
+    end
 
-   it "devrait avoir le bon titre" do
+    it "devrait avoir le bon titre" do
       get :show, :id => @user
       response.should have_selector("title", :content => @user.nom)
     end

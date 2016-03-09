@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Simple App du Tutoriel Ruby on Rails | <%= @titre %></title>
-  </head>
-  <body>
-    <h1>À Propos de nous</h1>
+<h1>À Propos</h1>
     <p>
       <a href="http://railstutorial.org/">Le Tutoriel Ruby on Rails</a>
     est un projet pour faire un livre des screnncasts pour apprendre le
     développement web avec 
     <a href="http://rubyonrails.org/">Ruby on Rails</a>. C'est
-      une Application Exemple pour le tutoriel.
+      une Application Exemple pour le tutoriel. <br/>
+    Cette version a été améliorée pour le controle continu de Gilles Hunault en 2016.
+    Le sujet est disponible <a href="http://forge.info.univ-angers.fr/~gh/Scripts/cc.php">ici</a>.
     </p>
-  </body>
-</html>

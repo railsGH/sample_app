@@ -69,7 +69,7 @@ describe UsersController do
 
       it "devrait avoir un message de bienvenue" do
         post :create, :user => @attr
-        flash[:success].should =~ /Bienvenue dans l'Application Exemple/i
+        flash[:success].should =~ /Bienvenue sur notre site !/i
       end
     end
 
